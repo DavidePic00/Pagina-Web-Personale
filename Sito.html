@@ -6,7 +6,13 @@
     <meta name="description" content="Pagina web di Davide Picerno" />
     <title>Davide Picerno web page</title>
     <style>
-      img {
+      p {
+        font-family: "SamsungSharpSans", arial, sans-serif;
+        text-align: justify;
+        color: rgba(0, 0, 0, 0.8);
+        line-height: 22px;
+      }
+      .io {
         width: 350px;
         border-radius: 20px;
         float: right;
@@ -18,34 +24,73 @@
           Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
           sans-serif;
       }
-      .Titoli-samsung {
-        font-family: "SamsungSharpSans", arial, sans-serif;
+      .data-ultimo-aggiornamento {
+        line-height: 0px;
+        color: rgba(0, 0, 0, 0.3);
+        margin-top: 0;
+        font-style: italic;
+        font-size: smaller;
+      }
+
+      .Titolo-principale {
+        margin-bottom: 2px;
+      }
+      .elenco-puntato {
+        text-decoration: none;
+      }
+      .elenco-puntato:hover {
+        text-decoration: underline;
+      }
+      .torna-all-inizio {
+        text-align: center;
+      }
+      .bandiere {
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        border: 1px solid #000;
       }
     </style>
   </head>
   <body>
-    <img src="immagini/Davide Picerno.jpg" alt="" />
-    <h1>Chi sono...</h1>
-
-    <p class="Titoli-samsung" align="justify">
+    <img class="io" src="immagini/Davide Picerno.jpg" alt="" />
+    <h1 class="Titolo-principale">Chi sono...</h1>
+    <p class="data-ultimo-aggiornamento">
+      (ultimo aggiornamento in data 07/15/2023)
+    </p>
+    <p>
       Sono Davide Picerno e sono uno studente di Ingegneria Aerospaziale al
       <a href="https://www.polito.it/" target="_blank">Politecnico di Torino</a
       >. <br />
-      Se desideri andare ad una precisa sezione del mio sito clicca la
+      Se desideri saltare ad una ben precisa sezione del mio sito clicca la
       sezione che ti interessa riportata di seguito: <br />
-      - <a href="#section-Passion">Passioni</a>;<br />
-      - <a href="#section-Percorso_Scolastico">Percorso scolastico</a>;<br />
-      - <a href="#section-Viaggi">Dove sono stato</a>;<br />
-      - <a href="#section-Motivo sito">Perchè questa pagina web?</a> <br />
-      - <a href="#section-Contatti">Contatti.</a>
     </p>
+
+    <ul>
+      <li><a class="elenco-puntato" href="#section-Passion">Passioni</a>;</li>
+      <li>
+        <a class="elenco-puntato" href="#section-Percorso_Scolastico"
+          >Percorso scolastico</a
+        >;
+      </li>
+      <li>
+        <a class="elenco-puntato" href="#section-Viaggi">Dove sono stato</a
+        >;<br />
+      </li>
+      <li>
+        <a class="elenco-puntato" href="#section-Motivo sito"
+          >Perchè questa pagina web?</a
+        >
+      </li>
+      <li><a class="elenco-puntato" href="#section-Contatti">Contatti.</a></li>
+    </ul>
     <h2 class="Titoli-apple" id="section-Passion">Passioni</h2>
-    <p class="Titoli-samsung" align="justify">
+    <p>
       Sono un grande appassionato di Formula 1 e Motorsport in quanto è un
       ambiente fortemente competitivo ma di squadra. Ciò che mi suscita
       particolare interesse è l'aerodinamica dei corpi. Attualmente, infatti,
-      frequento proprio un corso di studi dedicato; ne parlo meglio
-      nell'apposita sezione. <br />
+      frequento un corso di studi dedicato; ne parlo meglio nell'apposita
+      sezione. <br />
       In un futuro prossimo mi piacerebbe mettermi in gioco in uno dei due
       ambiti precedentemente citati ma in un posto lontano da Torino per avere
       modo di conoscere altre culture; poi eventualmente potrei tornare nella
@@ -58,7 +103,7 @@
       Percorso scolastico
     </h2>
     <h3 class="Titoli-apple">Superiori</h3>
-    <p class="Titoli-samsung" align="justify">
+    <p>
       Da Settembre 2012 a Giugno 2018 ho frequentato l'istituto tecnico
       <a href="https://www.itispininfarina.edu.it/" target="_blank">
         ITIS G.B. Pininfarina</a
@@ -75,7 +120,7 @@
       Questa scuola mi ha dato la possibilità di seguire un progetto di
       Alternanza Scuola-Lavoro (ASL) particolare, infatti era adottato da 4 soli
       istituti in tutto il paese. Il progetto di ASL prendeva il nome di
-      <em>Sistema&Duale</em>. Tale percorso prevedeva un totale di circa
+      <em>Sistema&nbsp;Duale</em>. Tale percorso prevedeva un totale di circa
       <em>1000 ore in azienda</em>. Queste ore erano spalmate dal 3' al 5' anno.
       Ogni studente (a seguito di una selezione) veniva assegnato ad una
       azienda. Eravamo un totale di 24 studenti e le aziende disponibili erano
@@ -86,7 +131,7 @@
       avuto la fortuna di appassionarmi anche al mondo dell'Aerospace.
     </p>
     <h3 class="Titoli-apple">Università</h3>
-    <p class="Titoli-samsung" align="justify">
+    <p>
       Come già anticipato, frequento il Politecnico di Torino. La mia scelta di
       proseguire gli studi presso il Politecnico è maturata nel percorso di ASL.
       Ho creduto da subito nel percorso di <em>Ingegneria Aerospaziale</em> in
@@ -98,7 +143,7 @@
     <h4 class="Titoli-apple">
       Percorso di Laurea Triennale in Ingegneria Aerospaziale
     </h4>
-    <p class="Titoli-samsung" align="justify">
+    <p>
       Il percorso di laurea triennale serve proprio per porre le fondamenta da
       sviluppare nel percorso Magistrale. Il primo anno era uguale per tutti i
       rami di Ingegneria. <br />
@@ -133,13 +178,13 @@
       interessante, sia per gli argomenti trattati (stabilità del sistema, caos
       deterministico) che per il modo e i programmi con cui sono stati trattati.
       Quando dovevo cercare la tesi, volevo trovarne una in cui ci fosse da
-      utilizzare Matlab &copy siccome è un programma molto potente e molto
-      diffuso in ambito ingegneristico. <br />
+      utilizzare Matlab<sup>&copy</sup> siccome è un programma molto potente e
+      molto diffuso in ambito ingegneristico. <br />
     </p>
     <h4 class="Titoli-apple">
       Percorso di Laurea Magistrale in Ingegneria Aerospaziale
     </h4>
-    <p class="Titoli-samsung" align="justify">
+    <p>
       Come specialistica ho scelto Aerogasdinamica dove si approfondisce lo
       studio dei flussi con materie pratiche (nelle gallerie del vento del
       dipartimento), teoriche e riguardanti la numerica. <br />
@@ -169,8 +214,16 @@
       (stabilimento in Corso Francia, Torino).
     </p>
     <h2 class="Titoli-apple" id="section-Viaggi">Dove sono stato</h2>
-    <h3 class="Titoli-apple">Scozia</h3>
-    <p class="Titoli-samsung" align="justify">
+    <h3 class="Titoli-apple">
+      <span>Scozia</span>
+      <img
+        class="bandiere"
+        src="immagini\Scotland_flag.png"
+        alt=""
+        align="center"
+      />
+    </h3>
+    <p>
       Ho avuto la fortuna di poter passare 6 settimane ogni estate dal 2015 al
       2018 in Scozia in un parco acquatico chiamato
       <a href="https://www.foxlake.co.uk/" target="_blank">Foxlake</a> in cui,
@@ -195,8 +248,16 @@
       sviluppavano, non tanto in rettilineo quanto nelle curve. Letteralmente
       impressionante. <br />
     </p>
-    <h3 class="Titoli-apple">Qatar</h3>
-    <p class="Titoli-samsung" align="justify">
+    <h3 class="Titoli-apple">
+      Qatar
+      <img
+        class="bandiere"
+        src="immagini\Qatar_flag.jpg"
+        alt=""
+        align="center"
+      />
+    </h3>
+    <p>
       Nel 2014 sono stato in vacanza in Qatar, a Doha, un'altra cultura molto
       diversa dalla mia! Ho dei bei ricordi inerenti allo svago (il deserto coi
       quad, mare, piscina,..) ma non molti relativi alle caratteristiche del
@@ -213,8 +274,16 @@
       vittà e una zona periferica che viene tenuta abbastanza nascosta
       dall'esterno.
     </p>
-    <h3 class="Titoli-apple">Italia</h3>
-    <p class="Titoli-samsung" align="justify">
+    <h3 class="Titoli-apple">
+      Italia
+      <img
+        class="bandiere"
+        src="immagini\Italy_flag.png"
+        alt=""
+        align="center"
+      />
+    </h3>
+    <p>
       Ho avuto il piacere di girare abbastanza l'Italia. Sono stato nelle isole
       e al Sud oltre che al Nord tra Piemonte, Lombardia e Veneto. Mi manca da
       visitare il centro del Paese che spero di visitare presto. Non ho fretta
@@ -224,7 +293,7 @@
     <h2 class="Titoli-apple" id="section-Motivo sito">
       Perchè questa pagina web?
     </h2>
-    <p class="Titoli-samsung" align="justify">
+    <p>
       L'idea di questa pagina web nasce puramente per caso. Mi piaceva pensare
       di poter imparare a creare una pagina web raccontandomi in un modo meno
       formale. Quello che credo essere il punto di forza di una pagina web è che
@@ -236,7 +305,7 @@
       dal punto di vista dei contenuti che dal punto di vista grafico.
     </p>
     <h2 class="Titoli-apple" id="section-Contatti">Contatti</h2>
-    <p class="Titoli-samsung" align="justify">
+    <p>
       I miei profili social sono: <br />
       - Linkedin:
       <a

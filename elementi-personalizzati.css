@@ -154,9 +154,10 @@ vertical-align: middle;
   margin-right: 7px;
   margin-bottom: 7px;
 }
-.paragrafo-ultimo{
-  margin-bottom: 35px;
-}
 ::-webkit-scrollbar {
   display: none;
+}
+
+.paragrafo-ultimo{
+  margin-bottom: 35px;
 }
